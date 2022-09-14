@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Shrikhand&display=swap');
+
+
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #f3f3f3;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header1 h1 {
+    margin-left: 45px;
+    font-family: 'Shrikhand', cursive;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.nom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nom h2 {
+    font-family: 'Shrikhand', cursive;
+}
+
+.heart {
+    position: relative;
+    margin-right: 10.3rem;
+    font-size: 17px;
+}
+
+.fa-heart {
+    position: absolute;
+    left: 7.5rem;
+    top: 0.2rem;
+}
+
+.fas {
+    opacity: 0;
+    color: transparent;
+    background-clip: text;
+}
+
+.nom:hover .fas {
+
+    opacity: 1;
+    color: #9683EC;
+}
+
+
+.palette-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    position: absolute;
+    top: 267px;
+    background-color: #f3f3f3;
+    padding-top: 30px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+
+.nom {
+    margin-bottom: 40px;
+}
+
+.nom h2 {
+    margin-left: 1.2rem;
+}
+
+.enter1 {
+    margin-top: 30px;
+}
+
+.plat1 {
+    margin-top: 30px;
+
+}
+
+.entrees {
+    margin-bottom: 45px;
+}
+
+.plats {
+    margin-bottom: 45px;
+}
+
+.dessert1 {
+    margin-top: 45px;
+}
+
+.desserts {
+    margin-bottom: 40px;
+}
+
+.enter2,
+.plat2,
+.dessert2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.enter1,
+.enter2,
+.enter3,
+.plat1,
+.plat2,
+.plat3,
+.dessert1,
+.dessert2,
+.dessert3 {
+
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(100%-30px);
+    height: auto;
+    background-color: white;
+    display: flex;
+    padding: 15px;
+    border-radius: 22px;
+    justify-content: space-between;
+}
+
+.para3 {
+    margin-left: -1.1rem;
+}
+
+.para5 {
+    margin-left: -9.3rem;
+}
+
+.para7 {
+    margin-left: -6.5rem;
+}
+
+.para9 {
+    margin-left: -3.7rem;
+}
+
+.para12 {
+    margin-left: -0.7rem;
+}
+
+.para14 {
+    margin-left: -1.5rem;
+}
+
+.para15 {
+    margin-left: -1rem;
+}
+
+.para17 {
+    margin-left: -8.6rem;
+}
+
+.para1,
+.para3,
+.para5,
+.para7,
+.para9,
+.para11,
+.para13,
+.para15,
+.para17 {
+
+    font-weight: bold;
+}
+
+.para2,
+.para4,
+.para6,
+.para8,
+.para10,
+.para12,
+.para14,
+.para16 {
+    opacity: 0.8;
+}
+
+.price {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.underline {
+    width: 40px;
+    height: 2.7px;
+    background-color: #99E2D0;
+    margin-left: 1.2rem;
+}
+
+.entrees h4 {
+
+    margin-left: -19.2rem;
+}
+
+.plats h4 {
+    margin-left: -20.6rem;
+}
+
+.desserts h4 {
+    margin-left: -19rem;
+}
+
+.image-container {
+    position: absolute;
+}
+
+.commander {
+    padding: 15px;
+    box-shadow: 0px 0px 10px grey;
+    background-color: #9356DC;
+    border-radius: 22px;
+    width: 217px;
+    margin: 0 auto;
+    background-image: linear-gradient(30deg, #f368e0, #e056fd);
+    transition: transform 0.2s;
+    color: white;
+}
+
+.commander:hover {
+
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+footer {
+    color: white;
+    background-color: #4e4e4e;
+    padding: 35px;
+    margin-top: 50px;
+}
+
+footer h4 {
+    font-family: 'Shrikhand', cursive;
+    font-weight: 500;
+    margin-left: -15.5rem;
+}
+
+.foot-container .resto {
+    margin-left: -9.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.foot-container .partn {
+    margin-left: -11.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.mention {
+    margin-left: -13.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.mail {
+    margin-left: -17.6rem;
+}
+
+.fa-solid {
+    margin-right: 0.7rem;
+}
+
+.mail a {
+    color: white;
+}
+
+
+/* ..........................................................Animations validation au hover sur texte menu................................. */
+
+
+
+
+.enter1,
+.enter2,
+.enter3,
+.plat1,
+.plat2,
+.plat3,
+.dessert1,
+.dessert2,
+.dessert3 {
+    position: relative;
+    cursor: pointer;
+}
+
+.square {
+    width: 68.4px;
+    height: 68.4px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    background-color: #99E2D0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 600rem;
+    transition: all 0.7 ease;
+}
+
+.far {
+    transition: all 0.7s ease;
+}
+
+.price {
+    transition: all 0.7s ease;
+}
+
+.enter1:hover .square {
+    right: 0;
+    top: 0;
+}
+
+.enter1:hover .price {
+
+    position: absolute;
+    right: 5rem;
+    font-weight: bold;
+}
+
+.enter1:hover .far {
+
+    background-color: white;
+    color: #99E2D0;
+    border-radius: 50%;
+    transform: rotate(360deg);
+    font-size: 25px;
+
+}
+
+.enter2:hover .square {
+    right: 0;
+    top: 0;
+}
+
+.enter2:hover .price {
+
+    position: absolute;
+    right: 5rem;
+    font-weight: bold;
+}
+
+.enter2:hover .far {
+
+    background-color: white;
+    color: #99E2D0;
+    border-radius: 50%;
+    transform: rotate(360deg);
+    font-size: 25px;
+
+}
+
+
+.enter3:hover .square {
+    right: 0;
+    top: 0;
+}
+
+.enter3:hover .price {
+
+    position: absolute;
+    right: 5rem;
+    font-weight: bold;
+}
+
+.enter3:hover .far {
+
+    background-color: white;
+    color: #99E2D0;
+    border-radius: 50%;
+    transform: rotate(360deg);
+    font-size: 25px;
+
+}
+
+
+.plat1:hover .square {
+    right: 0;
+    top: 0;
+}
+
+.plat1:hover .price {
+
+    position: absolute;
+    right: 5rem;
+    font-weight: bold;
+}
+
+.plat1:hover .far {
+
+    background-color: white;
+    color: #99E2D0;
+    border-radius: 50%;
+    transform: rotate(360deg);
+    font-size: 25px;
+
+}
+
+.plat2:hover .square {
+    right: 0;
+    top: 0;
+}
+
+.plat2:hover .price {
+
+    position: absolute;
+    right: 5rem;
+    font-weight: bold;
+}
+
+.plat2:hover .far {
+
+    background-color: white;
+    color: #99E2D0;
+    border-radius: 50%;
+    transform: rotate(360deg);
+    font-size: 25px;
+}
+
+
+.plat3:hover .square {
+    right: 0;
+    top: 0;
+}
+
+.plat3:hover .price {
+
+    position: absolute;
+    right: 5rem;
+    font-weight: bold;
+}
+
+.plat3:hover .far {
+
+    background-color: white;
+    color: #99E2D0;
+    border-radius: 50%;
+    transform: rotate(360deg);
+    font-size: 25px;
+
+}
+
+
+.dessert1:hover .square {
+    right: 0;
+    top: 0;
+}
+
+.dessert1:hover .price {
+
+    position: absolute;
+    right: 5rem;
+    font-weight: bold;
+}
+
+.dessert1:hover .far {
+
+    background-color: white;
+    color: #99E2D0;
+    border-radius: 50%;
+    transform: rotate(360deg);
+    font-size: 25px;
+
+}
+
+.dessert2:hover .square {
+    right: 0;
+    top: 0;
+}
+
+.dessert2:hover .price {
+
+    position: absolute;
+    right: 5rem;
+    font-weight: bold;
+}
+
+.dessert2:hover .far {
+
+    background-color: white;
+    color: #99E2D0;
+    border-radius: 50%;
+    transform: rotate(360deg);
+    font-size: 25px;
+
+}
+
+
+.dessert3:hover .square {
+    right: 0;
+    top: 0;
+}
+
+.dessert3:hover .price {
+
+    position: absolute;
+    right: 5rem;
+    font-weight: bold;
+}
+
+.dessert3:hover .far {
+
+    background-color: white;
+    color: #99E2D0;
+    border-radius: 50%;
+    transform: rotate(360deg);
+    font-size: 25px;
+
+}
+
+/* .......................................................Animations page meu................................................. */
+
+
+
+.enter1 {
+
+    animation: rica 0.4s linear forwards;
+    opacity: 0;
+}
+
+@keyframes rica {
+    to {
+        opacity: 1;
+    }
+
+}
+
+.enter2 {
+
+    animation: foiegr 0.4s 0.4s linear forwards;
+    opacity: 0;
+}
+
+@keyframes foiegr {
+    to {
+
+        opacity: 1;
+    }
+
+}
+
+
+
+.enter3 {
+    animation: loeuf 0.4s 0.8s linear forwards;
+    opacity: 0;
+}
+
+@keyframes loeuf {
+
+    to {
+
+        opacity: 1;
+    }
+
+}
+
+
+
+.plat1 {
+    animation: monfilet 0.4s 1.2s linear forwards;
+    opacity: 0;
+}
+
+@keyframes monfilet {
+
+    to {
+
+        opacity: 1;
+    }
+}
+
+
+.plat2 {
+    animation: parm 0.4s 1.6s linear forwards;
+    opacity: 0;
+}
+
+@keyframes parm {
+    to {
+        opacity: 1;
+    }
+
+}
+
+.plat3 {
+    animation: turb 0.4s 2s linear forwards;
+    opacity: 0;
+}
+
+@keyframes turb {
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.dessert1 {
+    animation: parisbr 0.4s 2.4s linear forwards;
+    opacity: 0;
+}
+
+@keyframes parisbr {
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.dessert2 {
+    animation: except 0.4s 2.8s linear forwards;
+    opacity: 0;
+}
+
+@keyframes except {
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+
+
+.dessert3 {
+    animation: mouss 0.4s 3.2s linear forwards;
+    opacity: 0;
+}
+
+@keyframes mouss {
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+/* .................................................................Desktop.............................................*/
+
+@media screen and (min-width:1024px) {
+
+    body {
+        background-color: #f3f3f3;
+        width: 100%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .header1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header1 h1 {
+        margin-left: 45px;
+        font-family: 'Shrikhand', cursive;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        object-fit: cover;
+        display: block;
+        height: 45vh;
+
+    }
+
+
+    .palette-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        top: 267px;
+        padding-top: 30px;
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        position: absolute;
+        flex-wrap: wrap;
+    }
+
+    .entrees,
+    .plats,
+    .desserts {
+        width: 31%;
+        display: inline-block
+    }
+
+    .nom {
+        width: 100%;
+    }
+
+    .menu-container {
+        width: 100%;
+    }
+
+    .commande-container {
+        width: 100%;
+    }
+
+    .plats {
+        margin: 10px;
+    }
+
+
+    footer {
+        width: 100%;
+    }
+
+    .entrees h4 {
+        margin-left: -23rem;
+    }
+
+    .plats h4 {
+        margin-left: -24rem;
+    }
+
+    .desserts h4 {
+        margin-left: -22.3rem;
+    }
+
+
+}
+
+
+/*............................................................Tablets.........................................*/
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+
+
+    .palette-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        top: 267px;
+        padding-top: 30px;
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        position: absolute;
+        flex-wrap: wrap;
+    }
+
+    .entrees,
+    .plats,
+    .desserts {
+        width: 50%;
+        display: inline-block
+    }
+
+    .commande-container {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}

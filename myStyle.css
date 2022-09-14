@@ -1,0 +1,1057 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Shrikhand&display=swap');
+
+
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+header {
+    padding: 2px;
+    background-color: white;
+    overflow: hidden;
+}
+
+header h1 {
+    font-family: 'Shrikhand', cursive;
+    box-shadow: -10px 8px 29px #DCDCDC;
+}
+
+.location {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: linear-gradient(to left, #d0d0d0, #dcdcdc);
+    box-shadow: 10px 5px 5px d0d0d0;
+}
+
+.location p {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+.infos {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 40px;
+}
+
+.infos .reserver {
+    width: 80%;
+    margin: 0 auto 15px;
+    font-weight: bold;
+}
+
+.infos .selectionner {
+    width: 87%;
+    margin: 0 auto 15px;
+    opacity: 0.8;
+}
+
+/* Mise en forme du bouton explorer à partir d'une div, la propriété transition associée à la fonction scale donne cet effet d'agrandissement
+lors du hover (L75 à L92)*/
+.infos .explorer {
+
+    padding: 15px;
+    box-shadow: 0px 0px 10px grey;
+    background-color: #9356DC;
+    border-radius: 22px;
+    width: 217px;
+    margin: 0 auto;
+    background-image: linear-gradient(30deg, #f368e0, #e056fd);
+    transition: transform 0.2s;
+    color: white;
+}
+
+.explorer:hover {
+
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.functions {
+    width: 100%;
+    padding-bottom: 40px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.functions h2 {
+    margin-right: 162px;
+    margin-top: 20px;
+}
+
+/* Mise en place de chaque bloc de la section infos en mode hover */
+.options {
+    margin: 25px 40px;
+    width: calc(100% - 80px);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 22px;
+    background-color: #f3f3f3;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.options:hover {
+    background: linear-gradient(#9370db, #6495ed);
+    text-shadow: 1px 1px 1px black;
+}
+
+.options:hover .fa-solid {
+    color: #9356DC;
+}
+
+.options span {
+    margin-left: 20px;
+}
+
+.options p {
+    margin: 30px;
+}
+
+/* la classe repere en position relative et num en position absolue permet de déplacer celui sur tout le bloc */
+.repere {
+    position: relative;
+}
+
+.num {
+    height: 25px;
+    width: 25px;
+    background-color: #9356DC;
+    border-radius: 50%;
+    margin-left: -8px;
+    color: white;
+    line-height: 25px;
+}
+
+
+.principal {
+    width: 100%;
+    padding-top: 52px;
+    background-color: #f3f3f3;
+}
+
+.principal h2 {
+    margin-left: -240px;
+}
+
+.container {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+/* l'image en cover pour avoir une certaine netteté du rendu */
+.picture img {
+    width: 100%;
+    height: 200.29px;
+    object-fit: cover;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    display: block;
+}
+
+.image {
+    margin: auto;
+}
+
+/* Des border radius de 20% aussi bien en haut à gauche qu'en haut à droite de la partie description au bas de l'image*/
+.desc {
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: white;
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+
+}
+
+/* Positionnement des coeurs grâce aux positions absolute et relative(L196 à L222) */
+.desc .heart {
+    margin-left: 105px;
+    position: relative;
+    margin-right: 10.3rem;
+    font-size: 17px;
+    right: -6.8rem;
+    top: -0.95rem;
+}
+
+.fa-heart {
+    position: absolute;
+    left: 7.5rem;
+    top: 0.2rem;
+}
+
+.fas {
+    opacity: 0;
+}
+
+.desc:hover .fas {
+    opacity: 1;
+    color: #dfb7ff
+}
+
+/* Réglages du positionnement des textes en bas de l'image(L224 à L269) */
+
+.desc {
+    position: relative;
+    padding: 25px;
+}
+
+.text {
+    position: absolute;
+    left: -0.3rem;
+    top: 0.5rem;
+}
+
+.picture {
+    background-color: #f3f3f3;
+
+}
+
+
+footer {
+    color: white;
+    background-color: #4e4e4e;
+}
+
+footer h4 {
+    font-family: 'Shrikhand', cursive;
+    font-weight: 500;
+    margin-left: -15.5rem;
+}
+
+.foot-container .resto {
+    margin-left: -9.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.foot-container .partn {
+    margin-left: -11.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.mention {
+    margin-left: -13.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.mail {
+    margin-left: -17.6rem;
+}
+
+.fa-solid {
+    margin-right: 0.7rem;
+}
+
+/* Ajouts des étiquettes 'Nouveau' sur les deux premières images. Grâce aux positions absolute sur add1 et add2 et relative 
+de la div .gallery-container(L315 à L348) */
+.gallery-container {
+    position: relative;
+}
+
+.add1::before {
+
+    content: 'Nouveau';
+    position: absolute;
+    background-color: #99e2d0;
+    height: 1.8rem;
+    width: 5rem;
+    display: grid;
+    place-items: center;
+    right: 18px;
+    top: 18px;
+    color: #079992;
+    font-weight: bold;
+}
+
+
+.add2::before {
+
+    content: 'Nouveau';
+    position: absolute;
+    background-color: #99e2d0;
+    height: 1.8rem;
+    width: 5rem;
+    display: grid;
+    place-items: center;
+    right: 18px;
+    top: 18px;
+    color: #079992;
+    font-weight: bold;
+}
+
+
+
+footer {
+    color: white;
+    background-color: #4e4e4e;
+    padding: 35px;
+}
+
+footer h4 {
+    font-family: 'Shrikhand', cursive;
+    font-weight: 500;
+    margin-left: -15.5rem;
+}
+
+.foot-container .resto {
+    margin-left: -9.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.foot-container .partn {
+    margin-left: -11.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.mention {
+    margin-left: -13.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.mail {
+    margin-left: -17.6rem;
+}
+
+.fa-solid {
+    margin-right: 0.7rem;
+}
+
+.mail a {
+    color: white;
+}
+
+/* ....................................................Déploiement du spin loader......................................*/
+
+ .loader {
+    height: 100vh;
+    width: 100%;
+    background-color: #1e272e ;
+    position: fixed;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    opacity: 0.8;
+    animation: charger 1s 4s forwards;
+    transform-origin: top;
+}
+
+.spinner {
+    width: 100px;
+    height: 100px;
+    border: 15px solid gainsboro;
+    border-left-color: blueviolet;
+    border-right-color: darkcyan;
+    border-radius: 50%;
+    animation: spin 3s linear infinite;
+
+}
+
+@keyframes charger {
+    to {
+        transform: scale(0);
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+} 
+
+
+
+
+
+/* ...................................................Tablet........................................................... */
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header h1 {
+        font-family: 'Shrikhand', cursive;
+        box-shadow: -10px 8px 29px #DCDCDC;
+    }
+
+    .location {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background: linear-gradient(to left, #d0d0d0, #dcdcdc);
+        box-shadow: 10px 5px 5px d0d0d0;
+    }
+
+    .location p {
+        font-size: 22px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+
+    .infos {
+        width: 100%;
+        background-color: #f6f6f6;
+        padding: 100px;
+        margin-bottom: 30px;
+    }
+
+    .infos .reserver {
+        width: 100%;
+        margin: 0 auto 15px;
+        font-weight: bold;
+    }
+
+    .infos .selectionner {
+        width: 100%;
+        margin: 0 auto 15px;
+        opacity: 0.8;
+    }
+
+    .infos .explorer {
+
+        padding: 20px;
+        box-shadow: 0px 0px 10px grey;
+        background-color: #9356DC;
+        border-radius: 22px;
+        width: 240px;
+        margin: 35px auto;
+        background-image: linear-gradient(30deg, #f368e0, #e056fd);
+        transition: transform 0.2s;
+        color: white;
+    }
+
+    .explorer:hover {
+
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .functions {
+        width: 100%;
+        padding-bottom: 40px;
+        background-color: white;
+    }
+
+
+    .pos {
+        position: relative;
+    }
+
+    .functions h2 {
+        position: absolute;
+        top: 45px;
+        left: 868px;
+    }
+
+    .pos2 {
+        position: relative;
+    }
+
+    .principal h2 {
+        position: absolute;
+        top: 5px;
+        left: 260px;
+    }
+
+
+
+    .options-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+        gap: 10px;
+        padding: 110px;
+    }
+
+
+    .options {
+        margin: 25px 50px;
+        width: calc(100% - 100px);
+        height: 150px;
+        display: flex;
+        align-items: center;
+        border-radius: 25%;
+        transition: all 0.2s 0.2s ease;
+        background-color: #f6f6f6;
+    }
+
+    .options:hover {
+        background: linear-gradient(#e6e6fa, #dcdcdc);
+        text-shadow: 1px 1px 2px black;
+        font-size: 17px;
+    }
+
+    .options:hover .fa-solid {
+        transform: scale(3.5);
+        color: #9356DC;
+    }
+
+
+    .options span {
+        margin-left: 20px;
+    }
+
+    .options p {
+        margin: 30px;
+    }
+
+    .repere {
+        position: relative;
+    }
+
+    .num {
+        height: 22px;
+        width: 25px;
+        background-color: #9356DC;
+        border-radius: 50%;
+        margin-left: -8px;
+        color: white;
+    }
+
+
+
+    .principal {
+        width: 100%;
+        background-color: #f3f3f3;
+    }
+
+    .pos2 {
+        content: '';
+        position: relative;
+    }
+
+    section h2 {
+        position: absolute;
+        right: 740px;
+    }
+
+    section h2 {
+        margin-left: -1070px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 70px 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        overflow: hidden;
+    }
+
+    .picture img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        display: block;
+    }
+
+    .desc {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        padding-bottom: 30px;
+        padding-top: 15px;
+        border-bottom-left-radius: 22px;
+        border-bottom-right-radius: 22px;
+    }
+
+    .image {
+        width: 70%;
+        margin: auto;
+    }
+
+    .gallery-container {
+        position: relative;
+    }
+
+    .add1::before {
+
+        content: 'Nouveau';
+        position: absolute;
+        background-color: #99e2d0;
+        height: 1.8rem;
+        width: 5rem;
+        display: grid;
+        place-items: center;
+        right: 70px;
+        top: 18px;
+        color: #079992;
+        font-weight: bold;
+    }
+
+
+    .add2::before {
+
+        content: 'Nouveau';
+        position: absolute;
+        background-color: #99e2d0;
+        height: 1.8rem;
+        width: 5rem;
+        display: grid;
+        place-items: center;
+        right: 70px;
+        top: 18px;
+        color: #079992;
+        font-weight: bold;
+    }
+
+    .mail a {
+        color: white;
+    }
+
+
+
+}
+
+.desc {
+    position: relative;
+}
+
+.desc .heart {
+    margin-left: 105px;
+    margin-right: 10.3rem;
+    font-size: 17px;
+    right: -1rem;
+    top: 0.5rem;
+    position: absolute;
+}
+
+.fa-heart {
+    position: absolute;
+    left: 7.5rem;
+    top: 0.2rem;
+}
+
+.fas {
+    opacity: 0;
+}
+
+.desc:hover .fas {
+    opacity: 1;
+    color: #dfb7ff
+}
+
+.text .menil {
+    margin-left: -0.5rem;
+    font-size: 13px;
+}
+
+.text .pal {
+    margin-left: 0.9rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.text .ench {
+    margin-left: 0.8rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.text .char {
+    margin-left: -2.4rem;
+    font-size: 13px;
+}
+
+
+.text .fran {
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.text .rouge {
+    margin-left: 0.1rem;
+    font-size: 13px;
+}
+
+
+.text .del {
+    margin-left: 1.1rem;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.text .folmeri {
+    margin-left: 0.1rem;
+    font-size: 13px;
+}
+
+
+
+/* .......................................................Breakpoints: entre 1024px et 1196px.......................... */
+
+@media screen and (min-width:1024px) and (max-width:1196px) {
+
+
+    .pos2 {
+        position: relative;
+    }
+
+    section h2 {
+        position: absolute;
+        right: 740px;
+    }
+
+
+
+    .desc .heart {
+        margin-left: 55px;
+        position: relative;
+        margin-right: 10.3rem;
+        font-size: 17px;
+    }
+
+
+
+    .fa-heart {
+        position: absolute;
+        left: 7.5rem;
+        top: 0.2rem;
+    }
+
+}
+
+
+
+/* ..................................................Desktop.............................................................*/
+
+@media screen and (min-width:1024px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    header {
+        width: 100%;
+    }
+
+    header h1 {
+        font-family: 'Shrikhand', cursive;
+        box-shadow: -10px 8px 29px #DCDCDC;
+    }
+
+    .location {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background: linear-gradient(to left, #d0d0d0, #dcdcdc);
+        box-shadow: 10px 5px 5px d0d0d0;
+    }
+
+    .location p {
+        font-size: 22px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+
+    .infos {
+        width: 100%;
+        background-color: #f6f6f6;
+        padding: 100px;
+        margin-bottom: 30px;
+    }
+
+    .infos .reserver {
+        width: 100%;
+        margin: 0 auto 15px;
+        font-weight: bold;
+    }
+
+    .infos .selectionner {
+        width: 100%;
+        margin: 0 auto 15px;
+        opacity: 0.8;
+    }
+
+    .infos .explorer {
+
+        padding: 20px;
+        box-shadow: 0px 0px 10px grey;
+        background-color: #9356DC;
+        border-radius: 22px;
+        width: 240px;
+        margin: 35px auto;
+        background-image: linear-gradient(30deg, #f368e0, #e056fd);
+        transition: transform 0.2s;
+        color: white;
+    }
+
+    .explorer:hover {
+
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .functions {
+        width: 100%;
+        padding-bottom: 40px;
+        background-color: white;
+    }
+
+    .pos {
+        position: relative;
+    }
+
+    .functions h2 {
+        position: absolute;
+        right: 1030px;
+        bottom: -95px;
+    }
+
+    .options-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 200px;
+        gap: 10px;
+        padding: 110px;
+    }
+
+
+    .options {
+        margin: 25px 50px;
+        width: calc(100% - 100px);
+        height: 150px;
+        display: flex;
+        align-items: center;
+        border-radius: 22px;
+        background-color: #f6f6f6;
+    }
+
+    .options:hover {
+        background: linear-gradient(#e6e6fa, #dcdcdc);
+        text-shadow: 1px 1px 2px black;
+        font-size: 17px;
+    }
+
+    .options:hover .fa-solid {
+        color: #9356DC;
+    }
+
+
+    .options span {
+        margin-left: 20px;
+    }
+
+    .options p {
+        margin: 30px;
+    }
+
+    .repere {
+        position: relative;
+    }
+
+    .num {
+        height: 25px;
+        width: 25px;
+        background-color: #9356DC;
+        border-radius: 50%;
+        margin-left: -8px;
+        color: white;
+        line-height: 25px;
+    }
+
+
+
+    .principal {
+        width: 100%;
+        background-color: #f3f3f3;
+    }
+
+    .principal h2 {
+        margin-left: -1090px;
+        margin-top: 90px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 70px 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        overflow: hidden;
+    }
+
+    .picture img {
+        width: 100%;
+        height: 290px;
+        object-fit: cover;
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        display: block;
+    }
+
+    .desc {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        padding-bottom: 40px;
+        padding-top: 15px;
+        border-bottom-left-radius: 22px;
+        border-bottom-right-radius: 22px;
+    }
+
+    .image {
+        width: 70%;
+        margin: auto;
+    }
+
+    .gallery-container {
+        position: relative;
+    }
+
+    .add1::before {
+
+        content: 'Nouveau';
+        position: absolute;
+        background-color: #99e2d0;
+        height: 1.8rem;
+        width: 5rem;
+        display: grid;
+        place-items: center;
+        right: 135px;
+        top: 18px;
+        color: #079992;
+        font-weight: bold;
+    }
+
+
+    .add2::before {
+
+        content: 'Nouveau';
+        position: absolute;
+        background-color: #99e2d0;
+        height: 1.8rem;
+        width: 5rem;
+        display: grid;
+        place-items: center;
+        right: 135px;
+        top: 18px;
+        color: #079992;
+        font-weight: bold;
+    }
+
+    .mail a {
+        color: white;
+    }
+
+
+
+    .heart {
+        position: relative;
+        margin-right: 13.5rem;
+        font-size: 23px;
+    }
+
+    .fa-heart {
+        position: absolute;
+        left: 7.5rem;
+        top: 0.2rem;
+    }
+
+    .desc {
+        justify-content: space-between;
+    }
+
+
+    .text .menil {
+        margin-left: -0.5rem;
+        font-size: 13px;
+    }
+
+    .text .pal {
+        margin-left: 0.9rem;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+
+    .text .ench {
+        margin-left: 0.8rem;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .text .char {
+        margin-left: -2.4rem;
+        font-size: 13px;
+    }
+
+
+    .text .fran {
+        margin-left: 1rem;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .text .rouge {
+        margin-left: 0.1rem;
+        font-size: 13px;
+    }
+
+
+    .text .del {
+        margin-left: 1.1rem;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .text .folmeri {
+        margin-left: 0.1rem;
+        font-size: 13px;
+    }
+
+}

@@ -118,7 +118,7 @@ lors du hover (L75 à L92)*/
 }
 
 .options:hover {
-    background: linear-gradient(#9370db, #6495ed);
+    background: linear-gradient(#f0dbff,#dfb7ff);
     text-shadow: 1px 1px 1px black;
 }
 
@@ -393,9 +393,6 @@ footer h4 {
 } 
 
 
-
-
-
 /* ...................................................Tablet........................................................... */
 
 @media screen and (min-width:768px) and (max-width:1023px) {
@@ -493,7 +490,7 @@ footer h4 {
     .principal h2 {
         position: absolute;
         top: 5px;
-        left: 260px;
+        left: 282px;
     }
 
 
@@ -520,13 +517,12 @@ footer h4 {
     }
 
     .options:hover {
-        background: linear-gradient(#e6e6fa, #dcdcdc);
+        background: linear-gradient(#f0dbff,#dfb7ff);
         text-shadow: 1px 1px 2px black;
         font-size: 17px;
     }
 
     .options:hover .fa-solid {
-        transform: scale(3.5);
         color: #9356DC;
     }
 
@@ -872,7 +868,7 @@ footer h4 {
     }
 
     .options:hover {
-        background: linear-gradient(#e6e6fa, #dcdcdc);
+        background: linear-gradient(#f0dbff,#dfb7ff);
         text-shadow: 1px 1px 2px black;
         font-size: 17px;
     }

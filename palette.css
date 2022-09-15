@@ -73,7 +73,7 @@ body {
 .nom:hover .fas {
 
     opacity: 1;
-    color: #9683EC;
+    color: #dfb7ff;
 }
 
 
@@ -671,25 +671,29 @@ footer h4 {
 /* ...................................................Quelques breakpoints smartphones........................................................... */
 
 @media screen and (max-width: 375px) {
-    .entrees h4{
+    .entrees h4 {
         margin-left: -17.2rem;
     }
-    .plats h4{
+
+    .plats h4 {
         margin-left: -18.6rem;
     }
-    .desserts h4{
+
+    .desserts h4 {
         margin-left: -17rem;
     }
 }
 
 @media screen and (max-width: 414px) {
-    .entrees h4{
+    .entrees h4 {
         margin-left: -19.2rem;
     }
-    .plats h4{
+
+    .plats h4 {
         margin-left: -20.6rem;
     }
-    .desserts h4{
+
+    .desserts h4 {
         margin-left: -19rem;
     }
 }

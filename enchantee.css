@@ -144,7 +144,7 @@ body {
 
     margin-left: 15px;
     margin-right: 15px;
-    width: calc(100%-30px);
+    width: calc(100% - 30px);
     height: auto;
     background-color: white;
     display: flex;
@@ -338,7 +338,7 @@ footer h4 {
     justify-content: center;
     position: absolute;
     right: 600rem;
-    transition: all 0.7 ease;
+    transition: all ease;
 }
 
 .far {

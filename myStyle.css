@@ -12,7 +12,6 @@
     list-style: none;
 }
 
-
 body {
     width: 100vw;
     font-family: 'Roboto', sans-serif;
@@ -22,7 +21,6 @@ body {
     background-color: #f3f3f3;
     list-style: none;
     text-decoration: none;
-
 }
 
 header {
@@ -52,7 +50,6 @@ header h1 {
     margin-left: 20px;
 }
 
-
 .infos {
     width: 100%;
     background-color: #f6f6f6;
@@ -75,7 +72,6 @@ header h1 {
 /* Mise en forme du bouton explorer à partir d'une div, la propriété transition associée à la fonction scale donne cet effet d'agrandissement
 lors du hover (L75 à L92)*/
 .infos .explorer {
-
     padding: 15px;
     box-shadow: 0px 0px 10px grey;
     background-color: #9356DC;
@@ -88,7 +84,6 @@ lors du hover (L75 à L92)*/
 }
 
 .explorer:hover {
-
     transform: scale(1.1);
     opacity: 0.8;
 }
@@ -150,7 +145,6 @@ lors du hover (L75 à L92)*/
     line-height: 25px;
 }
 
-
 .principal {
     width: 100%;
     padding-top: 52px;
@@ -166,8 +160,6 @@ lors du hover (L75 à L92)*/
     margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-
-
 }
 
 /* l'image en cover pour avoir une certaine netteté du rendu */
@@ -194,7 +186,6 @@ lors du hover (L75 à L92)*/
     padding-top: 15px;
     border-bottom-left-radius: 22px;
     border-bottom-right-radius: 22px;
-
 }
 
 /* Positionnement des coeurs grâce aux positions absolute et relative(L196 à L222) */
@@ -237,44 +228,8 @@ lors du hover (L75 à L92)*/
 
 .picture {
     background-color: #f3f3f3;
-
 }
 
-
-footer {
-    color: white;
-    background-color: #4e4e4e;
-}
-
-footer h4 {
-    font-family: 'Shrikhand', cursive;
-    font-weight: 500;
-    margin-left: -15.5rem;
-}
-
-.foot-container .resto {
-    margin-left: -9.5rem;
-    margin-top: 0.7rem;
-    margin-bottom: 0.7rem;
-}
-
-.foot-container .partn {
-    margin-left: -11.5rem;
-    margin-bottom: 0.7rem;
-}
-
-.mention {
-    margin-left: -13.5rem;
-    margin-bottom: 0.7rem;
-}
-
-.mail {
-    margin-left: -17.6rem;
-}
-
-.fa-solid {
-    margin-right: 0.7rem;
-}
 
 /* Ajouts des étiquettes 'Nouveau' sur les deux premières images. Grâce aux positions absolute sur add1 et add2 et relative 
 de la div .gallery-container(L315 à L348) */
@@ -312,8 +267,6 @@ de la div .gallery-container(L315 à L348) */
     color: #079992;
     font-weight: bold;
 }
-
-
 
 footer {
     color: white;

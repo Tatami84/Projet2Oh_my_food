@@ -365,7 +365,7 @@ footer h4 {
     display: grid;
     place-items: center;
     opacity: 0.8;
-    animation: charger 1s 4s forwards;
+    animation: charger 0.7s 2.5s forwards;
     transform-origin: top;
 }
 
@@ -376,7 +376,7 @@ footer h4 {
     border-left-color: blueviolet;
     border-right-color: darkcyan;
     border-radius: 50%;
-    animation: spin 3s linear infinite;
+    animation: spin 2s linear infinite;
 
 }
 

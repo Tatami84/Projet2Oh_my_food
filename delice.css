@@ -384,9 +384,18 @@ footer h4 {
     border-radius: 50%;
     transform: rotate(360deg);
     font-size: 25px;
-
 }
 
+.enter2:hover .para4 {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.enter2:hover .para3 {
+    margin-left: 0rem;
+}
 
 .enter3:hover .square {
     right: 0;

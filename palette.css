@@ -354,8 +354,14 @@ footer h4 {
     border-radius: 50%;
     transform: rotate(360deg);
     font-size: 25px;
-
 }
+
+.enter1:hover .text-enter1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 
 .enter2:hover .square {
     right: 0;
@@ -379,6 +385,16 @@ footer h4 {
 
 }
 
+.entree2:hover .para4 {
+    width: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.entree2:hover .para3 {
+    margin-left: -1rem;
+}
 
 .enter3:hover .square {
     right: 0;
@@ -402,6 +418,17 @@ footer h4 {
 
 }
 
+.entree3:hover .para6 {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.entree3:hover .para5 {
+    margin-left: -1rem;
+}
+
 
 .plat1:hover .square {
     right: 0;
@@ -422,8 +449,19 @@ footer h4 {
     border-radius: 50%;
     transform: rotate(360deg);
     font-size: 25px;
-
 }
+
+.plat1:hover .para8 {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.plat1:hover .para7 {
+    margin-left: -1rem;
+}
+
 
 .plat2:hover .square {
     right: 0;
@@ -444,6 +482,17 @@ footer h4 {
     border-radius: 50%;
     transform: rotate(360deg);
     font-size: 25px;
+}
+
+.plat2:hover .para10 {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.plat2:hover .para9 {
+    margin-left: -0.1rem;
 }
 
 
@@ -492,6 +541,12 @@ footer h4 {
 
 }
 
+.dessert1:hover .para14 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .dessert2:hover .square {
     right: 0;
     top: 0;
@@ -511,9 +566,18 @@ footer h4 {
     border-radius: 50%;
     transform: rotate(360deg);
     font-size: 25px;
-
 }
 
+.dessert2:hover .para16 {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dessert2:hover .para15 {
+    margin-left: -0.1rem;
+}
 
 .dessert3:hover .square {
     right: 0;
@@ -535,6 +599,17 @@ footer h4 {
     transform: rotate(360deg);
     font-size: 25px;
 
+}
+
+.dessert3:hover .para18 {
+    width: 260px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dessert3:hover .para17 {
+    margin-left: -7.1rem;
 }
 
 /* .......................................................Animations page meu................................................. */

@@ -385,14 +385,14 @@ footer h4 {
 
 }
 
-.entree2:hover .para4 {
-    width: 230px;
+.enter2:hover .para4 {
+    width: 200px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.entree2:hover .para3 {
+.enter2:hover .para3 {
     margin-left: -1rem;
 }
 

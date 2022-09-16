@@ -310,7 +310,7 @@ footer h4 {
 
 /* ....................................................Déploiement du spin loader......................................*/
 
-.loader {
+/* .loader {
     height: 100vh;
     width: 100%;
     background-color: #1e272e;
@@ -345,7 +345,7 @@ footer h4 {
     to {
         transform: rotate(360deg);
     }
-}
+} */
 
 
 /* ...................................................Tablet........................................................... */
@@ -453,7 +453,7 @@ footer h4 {
     .options-container {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: 200px;
         gap: 10px;
         padding: 110px;
@@ -466,9 +466,13 @@ footer h4 {
         height: 150px;
         display: flex;
         align-items: center;
-        border-radius: 25%;
+        border-radius: 22px;
         transition: all 0.2s 0.2s ease;
         background-color: #f6f6f6;
+    }
+    .options .text-detail{
+        margin: 0 auto;
+        font-size: 22px;
     }
 
     .options:hover {

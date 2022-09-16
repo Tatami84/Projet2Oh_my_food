@@ -337,21 +337,24 @@ footer h4 {
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 600rem;
-    transition: all ease;
+    right: -50px;
+    top: 0;
+    opacity: 0;
+    transition: all 1s ease;
 }
 
 .far {
-    transition: all 0.7s ease;
+    transition: all 1s ease;
 }
 
 .price {
-    transition: all 0.7s ease;
+    transition: all 1s 0.5s ease;
 }
 
 .enter1:hover .square {
     right: 0;
     top: 0;
+    opacity: 1;
 }
 
 .enter1:hover .price {
@@ -385,6 +388,7 @@ footer h4 {
 .enter2:hover .square {
     right: 0;
     top: 0;
+    opacity: 1;
 }
 
 .enter2:hover .price {
@@ -408,6 +412,7 @@ footer h4 {
 .enter3:hover .square {
     right: 0;
     top: 0;
+    opacity: 1;
 }
 
 .enter3:hover .price {
@@ -431,6 +436,7 @@ footer h4 {
 .enter4:hover .square {
     right: 0;
     top: 0;
+    opacity: 1;
 }
 
 .enter4:hover .price {
@@ -453,6 +459,7 @@ footer h4 {
 .plat1:hover .square {
     right: 0;
     top: 0;
+    opacity: 1;
 }
 
 .plat1:hover .price {
@@ -475,6 +482,7 @@ footer h4 {
 .plat2:hover .square {
     right: 0;
     top: 0;
+    opacity: 1;
 }
 
 .plat2:hover .price {
@@ -497,6 +505,7 @@ footer h4 {
 .plat3:hover .square {
     right: 0;
     top: 0;
+    opacity: 1;
 }
 
 .plat3:hover .price {
@@ -520,6 +529,7 @@ footer h4 {
 .dessert1:hover .square {
     right: 0;
     top: 0;
+    opacity: 1;
 }
 
 .dessert1:hover .price {
@@ -552,6 +562,7 @@ footer h4 {
 .dessert2:hover .square {
     right: 0;
     top: 0;
+    opacity: 1;
 }
 
 .dessert2:hover .price {
@@ -575,6 +586,7 @@ footer h4 {
 .dessert3:hover .square {
     right: 0;
     top: 0;
+    opacity: 1;
 }
 
 .dessert3:hover .price {

@@ -595,7 +595,13 @@ footer h4 {
 }
 
 @keyframes rica {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
     to {
+        transform: translateY(50%);
         opacity: 1;
     }
 
@@ -608,8 +614,13 @@ footer h4 {
 }
 
 @keyframes foiegr {
-    to {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
 
+    to {
+        transform: translateY(50%);
         opacity: 1;
     }
 
@@ -624,11 +635,15 @@ footer h4 {
 
 @keyframes loeuf {
 
-    to {
-
-        opacity: 1;
+    from {
+        transform: translateY(0);
+        opacity: 0;
     }
 
+    to {
+        transform: translateY(50%);
+        opacity: 1;
+    }
 }
 
 
@@ -640,8 +655,13 @@ footer h4 {
 
 @keyframes monfilet {
 
-    to {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
 
+    to {
+        transform: translateY(50%);
         opacity: 1;
     }
 }
@@ -653,7 +673,13 @@ footer h4 {
 }
 
 @keyframes parm {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
     to {
+        transform: translateY(50%);
         opacity: 1;
     }
 
@@ -666,7 +692,13 @@ footer h4 {
 
 @keyframes turb {
 
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
     to {
+        transform: translateY(50%);
         opacity: 1;
     }
 }
@@ -680,7 +712,13 @@ footer h4 {
 
 @keyframes parisbr {
 
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
     to {
+        transform: translateY(50%);
         opacity: 1;
     }
 }
@@ -693,7 +731,13 @@ footer h4 {
 
 @keyframes except {
 
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
     to {
+        transform: translateY(50%);
         opacity: 1;
     }
 
@@ -708,7 +752,13 @@ footer h4 {
 
 @keyframes mouss {
 
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
     to {
+        transform: translateY(50%);
         opacity: 1;
     }
 }

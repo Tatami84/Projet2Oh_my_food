@@ -470,7 +470,8 @@ footer h4 {
         transition: all 0.2s 0.2s ease;
         background-color: #f6f6f6;
     }
-    .options .text-detail{
+
+    .options .text-detail {
         margin: 0 auto;
         font-size: 22px;
     }

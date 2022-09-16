@@ -606,7 +606,7 @@ footer h4 {
 
 }
 
-/* .......................................................Animations page meu................................................. */
+/* .......................................................Animations page menu................................................. */
 
 
 
@@ -617,7 +617,13 @@ footer h4 {
 }
 
 @keyframes rica {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
     to {
+        transform: translateY(50%);
         opacity: 1;
     }
 
@@ -630,8 +636,13 @@ footer h4 {
 }
 
 @keyframes foiegr {
-    to {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
 
+    to {
+        transform: translateY(50%);
         opacity: 1;
     }
 
@@ -646,13 +657,36 @@ footer h4 {
 
 @keyframes loeuf {
 
-    to {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
 
+    to {
+        transform: translateY(50%);
         opacity: 1;
     }
 
 }
 
+.enter4 {
+    animation: loeuf 0.4s 1.2s linear forwards;
+    opacity: 0;
+}
+
+@keyframes loeuf {
+
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(50%);
+        opacity: 1;
+    }
+
+}
 
 
 .plat1 {
@@ -662,8 +696,13 @@ footer h4 {
 
 @keyframes monfilet {
 
-    to {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
 
+    to {
+        transform: translateY(50%);
         opacity: 1;
     }
 }
@@ -675,7 +714,13 @@ footer h4 {
 }
 
 @keyframes parm {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
     to {
+        transform: translateY(50%);
         opacity: 1;
     }
 
@@ -688,7 +733,13 @@ footer h4 {
 
 @keyframes turb {
 
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
     to {
+        transform: translateY(50%);
         opacity: 1;
     }
 }
@@ -702,7 +753,13 @@ footer h4 {
 
 @keyframes parisbr {
 
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
     to {
+        transform: translateY(50%);
         opacity: 1;
     }
 }
@@ -715,7 +772,13 @@ footer h4 {
 
 @keyframes except {
 
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
     to {
+        transform: translateY(50%);
         opacity: 1;
     }
 
@@ -728,7 +791,13 @@ footer h4 {
 
 @keyframes mouss {
 
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
     to {
+        transform: translateY(50%);
         opacity: 1;
     }
 }

@@ -418,14 +418,14 @@ footer h4 {
 
 }
 
-.entree3:hover .para6 {
+.enter3:hover .para6 {
     width: 200px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.entree3:hover .para5 {
+.enter3:hover .para5 {
     margin-left: -1rem;
 }
 

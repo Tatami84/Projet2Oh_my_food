@@ -839,7 +839,7 @@ footer h4 {
 
 /* .................................................................Desktop.............................................*/
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1024px) and (max-width:2000px) {
 
     body {
         background-color: #f3f3f3;
@@ -924,7 +924,20 @@ footer h4 {
     }
 
 
+    .underline {
+        width: 40px;
+        height: 2.7px;
+        background-color: #99E2D0;
+        margin-left: 3.2rem;
+    }
+    
+    .entrees h4 {
+    
+        margin-left: -19.2rem;
+    }
+
 }
+
 
 
 /*............................................................Tablets.........................................*/
